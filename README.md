@@ -1,4 +1,4 @@
-# ESEMPIO Overridding - Polimorfimo
+# ESEMPIO Overridding - Polimorfismo
 
 ![PolimorfismoClassDiagram](./PolimorfismoClassDiagram.png)
 
