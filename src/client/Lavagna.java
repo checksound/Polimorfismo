@@ -12,22 +12,26 @@ public class Lavagna {
 		
 	void disegnaShape() {
 		System.out.println("Lavagna: chiamo disegna Shape");
-		shapeController.printShape(new Shape());
+		Shape sp = new Shape();
+		shapeController.printShape(sp);
 	}
 	
 	void disegnaCircle() {
 		System.out.println("Lavagna: chiamo disegna Circle");
-		shapeController.printShape(new Circle());
+		Shape sp = new Circle(); 
+		shapeController.printShape(sp);
 	}
 	
 	void disegnaTriangle() {
 		System.out.println("Lavagna: chiamo disegna Triangle");
-		shapeController.printShape(new Triangle());
+		Shape sp = new Triangle();
+		shapeController.printShape(sp);
 	}
 	
 	void disegnaSquare() {
 		System.out.println("Lavagna: chiamo disegna Square");
-		shapeController.printShape(new Square());
+		Shape sp = new Square();
+		shapeController.printShape(sp);
 	}
 
 	public static void main(String[] args) {
