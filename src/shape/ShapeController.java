@@ -3,7 +3,7 @@ package shape;
 
 public class ShapeController {
 	
-	void printShape(Shape sp) {
+	public void printShape(Shape sp) {
 		sp.draw();
 	}
 
