@@ -2,6 +2,10 @@
 
 ![PolimorfismoClassDiagram](./PolimorfismoClassDiagram.png)
 
+Le sottoclasse `Circle` e `Triangle` fanno un override del metodo `draw()` della superclasse `Shape`. Il metodo `printShape(Shape sp)` sfrutta il polimorfismo: all'interno del metodo viene invocato `sp.draw()` sull'oggetto di tipo `Shape`.
+
+Vedi anche [client/TestSubstitution.java](./src/client/TestSubstitution.java) per evidenziare differenze *uppercast* e *downcast* (cast espicito).
+
 ## ESERCIZIO
 1. Aggiungere una nuove sottoclasse di `Shape`, `Elipse` e vedere cosa cambia;
 1. Fai diventare `Shape` una **interface** e vedi le differenze;
