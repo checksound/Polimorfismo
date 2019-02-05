@@ -1,14 +1,13 @@
 # ESEMPIO Overridding - Polimorfismo
 
-![PolimorfismoClassDiagram](./PolimorfismoClassDiagram.png)
+Esempi di polimorfismo con `Shape` e `Instrument`.
 
-Le sottoclasse `Circle` e `Triangle` fanno un override del metodo `draw()` della superclasse `Shape`. Il metodo `printShape(Shape sp)` della classe `ShapeController` sfrutta il polimorfismo: all'interno del metodo viene invocato `sp.draw()` sull'oggetto di tipo `Shape`.
+Classi main: **polymorphysm/music/Music.java** e **polymorphysm/shape/TestShapes.java**
 
-Vedi anche [client/TestSubstitution.java](./src/client/TestSubstitution.java) per evidenziare differenze *uppercast* e *downcast* (cast espicito).
+Esempio con overloadind del metodo `tune` **polymorphysm/music/Music2.java**.
 
-## ESERCIZIO
-1. Aggiungere una nuove sottoclasse di `Shape`, `Elipse` e vedere cosa cambia;
-1. Fai diventare `Shape` una **interface** e vedi le differenze;
-1. Scrivere la versione si `ShapeController` con l'overloading del metodo `print` vedere le differenze in caso si voglia aggiungere una sottoclasse di `Shape`;
+Classe esempio downcast: **client/TestSubstitution.java**
 
-![ShapeControllerOverloaded](./ShapeControllerOverloaded.png)
+
+
+

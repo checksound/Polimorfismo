@@ -1,9 +1,9 @@
 package client;
 
-import shape.Circle;
-import shape.Shape;
-import shape.Square;
-import shape.Triangle;
+import polymorphysm.shape.Circle;
+import polymorphysm.shape.Shape;
+import polymorphysm.shape.Square;
+import polymorphysm.shape.Triangle;
 
 public class TestSubstitution {
 
